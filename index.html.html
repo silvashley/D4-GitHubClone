@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            header {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: small;
+                text-emphasis: none;
+                border-top: 10px;
+            }
+            main{
+                width: 300px;
+                height: 250px;
+                margin: auto;
+                border: 1px solid red;
+                border-radius: 5px;
+                background-color:rgb(239, 247, 250);
+                padding-block: 5px ;
+            }
+            form{padding: 10%;}
+            footer{
+                width: 300px;
+                margin: auto;
+            }
+            ul{
+                list-style-type: none
+            }
+            li{
+                display:inline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="logo" style="width:60px;height:60px;">
+            <h1>Sign in to GitHub</h1>
+        </header>
+        <main>
+            
+            <form action="/action_page.php">
+                <label for="fname">Username or Email Address:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Password:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</li></a>
+                <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Privacy</li></a>
+                <li><a href="https://github.com/security">Security</li> </a>
+                <li><a href="https://support.github.com/?tags=dotcom-direct">Contact Github</a></li>
+             </ul>
+        </footer>
+    </body>   
+</html>
